@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CF554122687C410070524B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF554022687C410070524B /* AppDelegate.swift */; };
+		E1CF554322687C410070524B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF554222687C410070524B /* ViewController.swift */; };
+		E1CF554622687C410070524B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CF554422687C410070524B /* Main.storyboard */; };
+		E1CF554822687C420070524B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1CF554722687C420070524B /* Assets.xcassets */; };
+		E1CF554B22687C420070524B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1CF554922687C420070524B /* LaunchScreen.storyboard */; };
+		E1CF555622687C420070524B /* koukiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF555522687C420070524B /* koukiTests.swift */; };
+		E1CF556122687C420070524B /* koukiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CF556022687C420070524B /* koukiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1CF555222687C420070524B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CF553522687C410070524B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CF553C22687C410070524B;
+			remoteInfo = kouki;
+		};
+		E1CF555D22687C420070524B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1CF553522687C410070524B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1CF553C22687C410070524B;
+			remoteInfo = kouki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1CF553D22687C410070524B /* kouki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kouki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF554022687C410070524B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1CF554222687C410070524B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1CF554522687C410070524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1CF554722687C420070524B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1CF554A22687C420070524B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1CF554C22687C420070524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CF555122687C420070524B /* koukiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koukiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF555522687C420070524B /* koukiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koukiTests.swift; sourceTree = "<group>"; };
+		E1CF555722687C420070524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CF555C22687C420070524B /* koukiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koukiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CF556022687C420070524B /* koukiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koukiUITests.swift; sourceTree = "<group>"; };
+		E1CF556222687C420070524B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CF553A22687C410070524B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF554E22687C420070524B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF555922687C420070524B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CF553422687C410070524B = {
+			isa = PBXGroup;
+			children = (
+				E1CF553F22687C410070524B /* kouki */,
+				E1CF555422687C420070524B /* koukiTests */,
+				E1CF555F22687C420070524B /* koukiUITests */,
+				E1CF553E22687C410070524B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CF553E22687C410070524B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF553D22687C410070524B /* kouki.app */,
+				E1CF555122687C420070524B /* koukiTests.xctest */,
+				E1CF555C22687C420070524B /* koukiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CF553F22687C410070524B /* kouki */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF554022687C410070524B /* AppDelegate.swift */,
+				E1CF554222687C410070524B /* ViewController.swift */,
+				E1CF554422687C410070524B /* Main.storyboard */,
+				E1CF554722687C420070524B /* Assets.xcassets */,
+				E1CF554922687C420070524B /* LaunchScreen.storyboard */,
+				E1CF554C22687C420070524B /* Info.plist */,
+			);
+			path = kouki;
+			sourceTree = "<group>";
+		};
+		E1CF555422687C420070524B /* koukiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF555522687C420070524B /* koukiTests.swift */,
+				E1CF555722687C420070524B /* Info.plist */,
+			);
+			path = koukiTests;
+			sourceTree = "<group>";
+		};
+		E1CF555F22687C420070524B /* koukiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1CF556022687C420070524B /* koukiUITests.swift */,
+				E1CF556222687C420070524B /* Info.plist */,
+			);
+			path = koukiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CF553C22687C410070524B /* kouki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF556522687C420070524B /* Build configuration list for PBXNativeTarget "kouki" */;
+			buildPhases = (
+				E1CF553922687C410070524B /* Sources */,
+				E1CF553A22687C410070524B /* Frameworks */,
+				E1CF553B22687C410070524B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kouki;
+			productName = kouki;
+			productReference = E1CF553D22687C410070524B /* kouki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1CF555022687C420070524B /* koukiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF556822687C420070524B /* Build configuration list for PBXNativeTarget "koukiTests" */;
+			buildPhases = (
+				E1CF554D22687C420070524B /* Sources */,
+				E1CF554E22687C420070524B /* Frameworks */,
+				E1CF554F22687C420070524B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CF555322687C420070524B /* PBXTargetDependency */,
+			);
+			name = koukiTests;
+			productName = koukiTests;
+			productReference = E1CF555122687C420070524B /* koukiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1CF555B22687C420070524B /* koukiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CF556B22687C420070524B /* Build configuration list for PBXNativeTarget "koukiUITests" */;
+			buildPhases = (
+				E1CF555822687C420070524B /* Sources */,
+				E1CF555922687C420070524B /* Frameworks */,
+				E1CF555A22687C420070524B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1CF555E22687C420070524B /* PBXTargetDependency */,
+			);
+			name = koukiUITests;
+			productName = koukiUITests;
+			productReference = E1CF555C22687C420070524B /* koukiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CF553522687C410070524B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = odarikuto;
+				TargetAttributes = {
+					E1CF553C22687C410070524B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E1CF555022687C420070524B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1CF553C22687C410070524B;
+					};
+					E1CF555B22687C420070524B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E1CF553C22687C410070524B;
+					};
+				};
+			};
+			buildConfigurationList = E1CF553822687C410070524B /* Build configuration list for PBXProject "kouki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1CF553422687C410070524B;
+			productRefGroup = E1CF553E22687C410070524B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CF553C22687C410070524B /* kouki */,
+				E1CF555022687C420070524B /* koukiTests */,
+				E1CF555B22687C420070524B /* koukiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CF553B22687C410070524B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF554B22687C420070524B /* LaunchScreen.storyboard in Resources */,
+				E1CF554822687C420070524B /* Assets.xcassets in Resources */,
+				E1CF554622687C410070524B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF554F22687C420070524B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF555A22687C420070524B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CF553922687C410070524B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF554322687C410070524B /* ViewController.swift in Sources */,
+				E1CF554122687C410070524B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF554D22687C420070524B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF555622687C420070524B /* koukiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CF555822687C420070524B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CF556122687C420070524B /* koukiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1CF555322687C420070524B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CF553C22687C410070524B /* kouki */;
+			targetProxy = E1CF555222687C420070524B /* PBXContainerItemProxy */;
+		};
+		E1CF555E22687C420070524B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1CF553C22687C410070524B /* kouki */;
+			targetProxy = E1CF555D22687C420070524B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1CF554422687C410070524B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CF554522687C410070524B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1CF554922687C420070524B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1CF554A22687C420070524B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1CF556322687C420070524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1CF556422687C420070524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CF556622687C420070524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kouki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kouki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1CF556722687C420070524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kouki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.kouki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1CF556922687C420070524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koukiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.koukiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kouki.app/kouki";
+			};
+			name = Debug;
+		};
+		E1CF556A22687C420070524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koukiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.koukiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kouki.app/kouki";
+			};
+			name = Release;
+		};
+		E1CF556C22687C420070524B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koukiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.koukiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kouki;
+			};
+			name = Debug;
+		};
+		E1CF556D22687C420070524B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koukiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.koukiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kouki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CF553822687C410070524B /* Build configuration list for PBXProject "kouki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF556322687C420070524B /* Debug */,
+				E1CF556422687C420070524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF556522687C420070524B /* Build configuration list for PBXNativeTarget "kouki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF556622687C420070524B /* Debug */,
+				E1CF556722687C420070524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF556822687C420070524B /* Build configuration list for PBXNativeTarget "koukiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF556922687C420070524B /* Debug */,
+				E1CF556A22687C420070524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CF556B22687C420070524B /* Build configuration list for PBXNativeTarget "koukiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CF556C22687C420070524B /* Debug */,
+				E1CF556D22687C420070524B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CF553522687C410070524B /* Project object */;
+}
